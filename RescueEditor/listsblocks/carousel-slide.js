@@ -1,0 +1,1 @@
+{"default":{"paragraph":{},"ordered-list":{},"unordered-list":{}, "right-wrong-list":{}, "boite":{}, "alert-success":{}, "alert-info":{}, "alert-warning":{}, "alert-danger":{},  "breadcrumbs":{}, "progressbar":{}}}

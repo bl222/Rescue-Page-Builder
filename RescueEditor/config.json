@@ -1,0 +1,6 @@
+{
+    "blockUrl":"RescueEditor/blocks/%id%.html",
+    "listBlockUrl":"RescueEditor/listsblocks/%id%.json",
+    "readEditorFile":"RescueEditor/editorfile/read/blaa.txt",
+    "saveEditorFile":"RescueEditor/editorfile/save.php"
+}

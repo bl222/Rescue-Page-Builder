@@ -1,0 +1,113 @@
+
+.blre-add-button {
+    display: block;
+    border: 1px dashed black;
+    text-align: center;
+}
+
+.blre-delete-button {
+    display: none;
+}
+
+.blre-edit-button {
+    display: none;
+}
+
+ .blre-block:hover > .blre-delete-button {
+     display: block;
+     position: absolute;
+     right: 10px;
+     top: 5px;
+ }
+ .blre-block:hover  > .blre-edit-button {
+     display: block;
+     position: absolute;
+     right: 30px;
+     top: 5px;
+ }
+
+.blre-block {
+    border: 1px solid black;
+    margin: 5px 0;
+    padding: 50px;
+    position: relative;
+}
+.blre-root.blre-block {
+     border: none;
+}
+
+.blre-root {
+    background: #ddd;
+    border: 1px solid black;
+}
+
+.blre-root > .blre-block {
+    background: #fff;
+}
+
+ .blre-root > .blre-block  .blre-has-children {
+    background: #ddd;
+}
+
+ .blre-root > .blre-block  .blre-has-children .blre-block{
+    background: #fff;
+}
+
+
+
+.blre-offscreen {
+    position: absolute;
+    left: -100000000000000000000px;
+    visibility: hidden;
+}
+
+.blre-block-label {
+    background: yellow;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 5px;
+
+}
+
+.blui-dialog-overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #999;
+    opacity: 0.7
+}
+
+.blui-dialog {
+    position: absolute;
+    background: white;
+    max-width: 80%;
+    width: 1600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.blui-dialog input[type=text], .blui-dialog textarea {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.blui-dialog textarea  {
+    min-height: 100px;
+}
+
+.blui-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.blui-dialog-content > ul > li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20px;
+}

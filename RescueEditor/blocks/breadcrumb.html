@@ -1,0 +1,18 @@
+<block>
+    <content>
+        <li class="breadcrumb-item"><a href="{{BreadcrumbHref}}"  target="_blank">{{BreadcrumbText}}</a></li>
+    </content>
+    <editor>
+        <form method="POST">
+  
+            <label>Text: <input type="text" name="BreadcrumbText" value="{{BreadcrumbText}}" /></label>
+            <br/>
+            <label>Href: <input type="text" name="BreadcrumbHref" value="{{BreadcrumbHref}}" /></label>
+            <br/>
+        </form>
+    </editor>
+    <defaults>
+        <default key="BreadcrumbText">Breadcrumb</default>
+        <default key="BreadcrumbHref">#</default>
+    </defaults>
+</block>

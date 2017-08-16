@@ -1,0 +1,27 @@
+
+<block>
+    <content>
+        <section class="box">
+            <h2>{{Header}}</h2>
+
+            <div class="box-content">
+                <children></children>
+            </div>
+
+
+        </section>        
+    </content>
+
+    <editor>
+        <form>
+            <label>
+                Header: <input type="text" name="Header" value="{{Header}}">
+            </label>
+            <br/>
+            <input type="submit" />
+        </form>
+    </editor>
+    <defaults>
+        <default key="Header">My box!</default>     
+    </defaults>
+</block>

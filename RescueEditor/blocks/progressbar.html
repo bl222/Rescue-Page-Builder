@@ -1,0 +1,20 @@
+<block>
+    <content>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: {{Percent}}%"  aria-valuenow="{{Percent}}" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+    </content>
+    <editor>
+        <form>
+            <label>
+                <input type="number" name="Percent" value="{{Percent}}" min="0" max="100" step="1" />
+            </label>
+        </form>
+    </editor>
+    <defaults>
+        <default key="Percent">0</default>
+
+    </defaults>
+</block>
+
+

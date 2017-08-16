@@ -1,0 +1,27 @@
+<block>
+    <content>
+        <p><b>{{ParagraphText}}</b></p>
+    </content>
+    <editor>
+        <form>
+            <div class="blre-tabs">
+                  <ul>
+                    <li><a href="#aaa"><span>Content</span></a></li>
+                    <li><a href="#bbb" ><span>Advanced</span></a></li>
+                    
+                  </ul>
+                <div id="aaa">
+                    <textarea name="ParagraphText">{{ParagraphText}}</textarea>
+                </div>
+                <div id="bbb" class="blre-form-advanced-tab">
+                </div>
+            </div>
+            <br/>
+            <input type="submit" />
+        </form>
+    </editor>
+    <defaults>
+        <default key="ParagraphText">Ceci est un paragraph!</default>
+
+    </defaults>
+</block>
