@@ -32,7 +32,7 @@ if(!String.prototype.blreReplaceAll) {
 }
 
 // Used for namespacing purposes through the RescueHtml project
-BLRE = {};
+var BLRE = {};
 
 
 /**

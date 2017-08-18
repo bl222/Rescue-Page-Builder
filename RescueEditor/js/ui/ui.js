@@ -1,3 +1,9 @@
+/*
+ requires:
+ 
+events/eventmanager.js
+ */
+
 /**
  * Not useful on its own. Defines basic functionalities commun to every 
  * blui components. Is meant to be inherited by the various blui components

@@ -1,4 +1,9 @@
+/*
+ requires:
+ 
+templating/templating.js
 
+ */
 /**
  * Programmed by Benoit Lanteigne
  *  

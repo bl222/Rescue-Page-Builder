@@ -1,4 +1,9 @@
+/*
+ requires:
+ 
+persistance/composite.js
 
+ */
 /**
  * Programmed by Benoit Lanteigne
  * 
@@ -106,7 +111,7 @@ class BlreHtmlBuilderNode extends BlreCompositeNode{
        function deserializeHelper(a_node, a_nodeDom) {
          
            a_node.html = a_nodeDom.querySelector('htmlvalue').innerHTML
-           console.log(a_node.html);
+          
            a_node.globalId = parseInt(a_nodeDom.querySelector('globalid').innerHTML);
            
            a_node.templateData = {};

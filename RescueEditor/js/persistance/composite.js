@@ -1,3 +1,8 @@
+/*
+ requires:
+ 
+events/eventmanager.js
+ */
 
 /**
  * Programmed by Benoit Lanteigne

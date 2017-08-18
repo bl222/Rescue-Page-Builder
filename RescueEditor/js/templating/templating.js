@@ -1,4 +1,9 @@
+/*
+ requires:
+events/eventmanager.js
+templating/mustach.js
 
+ */
 /**
  * Programmed by Benoit Lanteigne
  * 
@@ -30,9 +35,21 @@ class BaseTemplateHandler {
      * @param {type} a_json Json that specifies which data is rendered inside the template
      * @returns {unresolved} The rendered template
      */ 
-    renderTemplate(a_template, a_json) { console.log(a_json);
-        Mustache.parse(a_template);   // optional, speeds up future uses
-        return Mustache.render(a_template, a_json);    
+    renderTemplate(a_template, a_json) { 
+        let final = a_template;
+ 
+        for(let key in a_json) {
+          
+
+            let replace = '{{{' + key + '}}}';
+            let re = new RegExp(replace,"g");
+            final = final.replace(re, a_json[key]);
+
+        }
+     
+        return final;
+        /*Mustache.parse(a_template);   // optional, speeds up future uses
+        return Mustache.render(a_template, a_json);    */
     };    
     
 }

@@ -1,4 +1,11 @@
 /*
+ requires:
+ 
+events/eventmanager.js
+IO/configloader.js
+ */
+
+/*
  * Programmed by Benoit Lanteigne
  * 
  * 

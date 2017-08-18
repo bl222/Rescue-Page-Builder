@@ -1,0 +1,52 @@
+<block>
+    <contentno-edit>
+        <div>
+            <children>
+                <loadblock block="ordered-list">
+
+                    <children><loadblock block="list-item"></loadblock></children>
+
+                </loadblock>
+                <block>
+                    <content valid-children="list">
+                        <ul class="blre-block blre-has-children">
+                            <children>
+                                <block>
+                                    <content>
+                                        <li class="blre-block">{{ParagraphText}}</li>
+                                        
+                                    </content>
+                        
+                                    <defaults>
+                                        <default key="ParagraphText">Cec!</default>
+
+                                    </defaults>
+                                    
+                                </block>
+                            </children>
+                        </ul>
+                    </content>
+                </block>
+
+            </children>
+        </div>
+    </content>
+        <div class="blre-default-values">
+          {
+            "ParagraphText": "Ceci est un paragraph!"
+          }
+
+    </div>  
+</block>
+      <!--  <div class="blre-block" data-is-block="olist">
+            
+            <children><div class="blre-block" data-is-block="listitem"></div></children>
+            
+        </div>-->
+<!--
+<div class="blre-block" data-is-block="ulist">
+           
+            [[[<div class="blre-block" data-is-block="listitem"></div>]]]
+           
+        </div>
+-->
