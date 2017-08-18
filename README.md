@@ -1,6 +1,6 @@
 # Rescue-Page-Builder
 
-[simple demo available here](https://www.google.com)
+[simple demo available here](http://www.benoit-code.ca.asp1-8.phx1-2.websitetestlink.com/)
 
 NOTE: The demo has limited capabilities, but these can be extended. More info on this once the doc is written.
 
