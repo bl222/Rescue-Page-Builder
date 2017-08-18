@@ -1,9 +1,8 @@
 /*
- requires:
-events/eventmanager.js
-templating/mustach.js
-
- */
+        Programmed By Benoit Lanteigne
+        (c) Benoit Lanteigne, all rights reserved
+        Licenced under GNU Affero General Public License 
+    */
 /**
  * Programmed by Benoit Lanteigne
  * 

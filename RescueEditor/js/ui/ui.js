@@ -1,8 +1,8 @@
 /*
- requires:
- 
-events/eventmanager.js
- */
+        Programmed By Benoit Lanteigne
+        (c) Benoit Lanteigne, all rights reserved
+        Licenced under GNU Affero General Public License 
+    */
 
 /**
  * Not useful on its own. Defines basic functionalities commun to every 
